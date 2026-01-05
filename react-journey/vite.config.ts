@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
     plugins: [react()],
-    base: '/', // Enforce absolute root path for SPA
+    base: './', // Use relative paths for assets
     server: {
         port: 5173,
         open: true
